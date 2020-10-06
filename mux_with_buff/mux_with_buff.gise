@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="mux_with_buff.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="max_4to1.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="max_4to1.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="max_4to1.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="max_4to1.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="max_4to1.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="max_4to1.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="max_4to1.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="max_4to1.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="max_4to1.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="max_4to1.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="max_4to1.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="max_4to1.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="max_4to1.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="max_4to1.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="max_4to1.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="max_4to1.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="max_4to1.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="max_4to1.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="max_4to1.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="max_4to1_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="max_4to1_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="max_4to1_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="max_4to1_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="max_4to1_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="max_4to1_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="max_4to1_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="max_4to1_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="max_4to1_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="max_4to1_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="max_4to1_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="max_4to1_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="max_4to1_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="max_4to1_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="max_4to1_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test1_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test2_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test3_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test3_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test3_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test4_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1601998770" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1601998770">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1602002283" xil_pn:in_ck="3631817434180604129" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1602002283">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="mux-modules.v"/>
+      <outfile xil_pn:name="newnand.v"/>
+      <outfile xil_pn:name="test1.v"/>
+      <outfile xil_pn:name="test2.v"/>
+      <outfile xil_pn:name="test3.v"/>
+      <outfile xil_pn:name="ttest4.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1602002293" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3480333725043987843" xil_pn:start_ts="1602002293">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1602002293" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8147274450079160257" xil_pn:start_ts="1602002293">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1601998770" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-5822567511557741939" xil_pn:start_ts="1601998770">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1602002283" xil_pn:in_ck="3631817434180604129" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1602002283">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="mux-modules.v"/>
+      <outfile xil_pn:name="newnand.v"/>
+      <outfile xil_pn:name="test1.v"/>
+      <outfile xil_pn:name="test2.v"/>
+      <outfile xil_pn:name="test3.v"/>
+      <outfile xil_pn:name="ttest4.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1602002296" xil_pn:in_ck="3631817434180604129" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5115558795594898900" xil_pn:start_ts="1602002293">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="test3_beh.prj"/>
+      <outfile xil_pn:name="test3_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1602002296" xil_pn:in_ck="7343579676389066182" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4947236494857652273" xil_pn:start_ts="1602002296">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="test3_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1601998666" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1601998666">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1601998666" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7001058633400363035" xil_pn:start_ts="1601998666">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1601998666" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5822567511557741939" xil_pn:start_ts="1601998666">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1601998666" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1601998666">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1601998666" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="2341840681351349149" xil_pn:start_ts="1601998666">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1601998666" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-5609353907947751920" xil_pn:start_ts="1601998666">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1601998666" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="3180193800394671703" xil_pn:start_ts="1601998666">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1602001944" xil_pn:in_ck="3198465238970103731" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-2512218819798118891" xil_pn:start_ts="1602001935">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="max_4to1.lso"/>
+      <outfile xil_pn:name="max_4to1.ngc"/>
+      <outfile xil_pn:name="max_4to1.ngr"/>
+      <outfile xil_pn:name="max_4to1.prj"/>
+      <outfile xil_pn:name="max_4to1.stx"/>
+      <outfile xil_pn:name="max_4to1.syr"/>
+      <outfile xil_pn:name="max_4to1.xst"/>
+      <outfile xil_pn:name="max_4to1_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1601998676" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4784893916263884143" xil_pn:start_ts="1601998676">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1602001951" xil_pn:in_ck="5663358128887076211" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7831119329468384210" xil_pn:start_ts="1602001944">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="max_4to1.bld"/>
+      <outfile xil_pn:name="max_4to1.ngd"/>
+      <outfile xil_pn:name="max_4to1_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1602001959" xil_pn:in_ck="5663358128887076212" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="304711778406361947" xil_pn:start_ts="1602001951">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="max_4to1.pcf"/>
+      <outfile xil_pn:name="max_4to1_map.map"/>
+      <outfile xil_pn:name="max_4to1_map.mrp"/>
+      <outfile xil_pn:name="max_4to1_map.ncd"/>
+      <outfile xil_pn:name="max_4to1_map.ngm"/>
+      <outfile xil_pn:name="max_4to1_map.xrpt"/>
+      <outfile xil_pn:name="max_4to1_summary.xml"/>
+      <outfile xil_pn:name="max_4to1_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1602001970" xil_pn:in_ck="1839028992744423053" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-5189723633469429705" xil_pn:start_ts="1602001959">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="max_4to1.ncd"/>
+      <outfile xil_pn:name="max_4to1.pad"/>
+      <outfile xil_pn:name="max_4to1.par"/>
+      <outfile xil_pn:name="max_4to1.ptwx"/>
+      <outfile xil_pn:name="max_4to1.unroutes"/>
+      <outfile xil_pn:name="max_4to1.xpi"/>
+      <outfile xil_pn:name="max_4to1_pad.csv"/>
+      <outfile xil_pn:name="max_4to1_pad.txt"/>
+      <outfile xil_pn:name="max_4to1_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1602001970" xil_pn:in_ck="5663358128887076080" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1602001965">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="max_4to1.twr"/>
+      <outfile xil_pn:name="max_4to1.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

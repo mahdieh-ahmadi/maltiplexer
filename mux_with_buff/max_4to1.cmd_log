@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/max_4to1.xst" -ofn "E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/max_4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 max_4to1.ngc max_4to1.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o max_4to1_map.ncd max_4to1.ngd max_4to1.pcf 
+par -w -intstyle ise -ol high -mt off max_4to1_map.ncd max_4to1.ncd max_4to1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml max_4to1.twx max_4to1.ncd -o max_4to1.twr max_4to1.pcf 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/max_4to1.xst" -ofn "E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/max_4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 max_4to1.ngc max_4to1.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o max_4to1_map.ncd max_4to1.ngd max_4to1.pcf 
+par -w -intstyle ise -ol high -mt off max_4to1_map.ncd max_4to1.ncd max_4to1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml max_4to1.twx max_4to1.ncd -o max_4to1.twr max_4to1.pcf 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/max_4to1.xst" -ofn "E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/max_4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 max_4to1.ngc max_4to1.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o max_4to1_map.ncd max_4to1.ngd max_4to1.pcf 
+par -w -intstyle ise -ol high -mt off max_4to1_map.ncd max_4to1.ncd max_4to1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml max_4to1.twx max_4to1.ncd -o max_4to1.twr max_4to1.pcf 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/max_4to1.xst" -ofn "E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/max_4to1.syr" 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/max_4to1.xst" -ofn "E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/max_4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 max_4to1.ngc max_4to1.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o max_4to1_map.ncd max_4to1.ngd max_4to1.pcf 
+par -w -intstyle ise -ol high -mt off max_4to1_map.ncd max_4to1.ncd max_4to1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml max_4to1.twx max_4to1.ncd -o max_4to1.twr max_4to1.pcf 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/max_4to1.xst" -ofn "E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/max_4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 max_4to1.ngc max_4to1.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o max_4to1_map.ncd max_4to1.ngd max_4to1.pcf 
+par -w -intstyle ise -ol high -mt off max_4to1_map.ncd max_4to1.ncd max_4to1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml max_4to1.twx max_4to1.ncd -o max_4to1.twr max_4to1.pcf 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/max_4to1.xst" -ofn "E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/max_4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 max_4to1.ngc max_4to1.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o max_4to1_map.ncd max_4to1.ngd max_4to1.pcf 
+par -w -intstyle ise -ol high -mt off max_4to1_map.ncd max_4to1.ncd max_4to1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml max_4to1.twx max_4to1.ncd -o max_4to1.twr max_4to1.pcf 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/max_4to1.xst" -ofn "E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/max_4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 max_4to1.ngc max_4to1.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o max_4to1_map.ncd max_4to1.ngd max_4to1.pcf 
+par -w -intstyle ise -ol high -mt off max_4to1_map.ncd max_4to1.ncd max_4to1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml max_4to1.twx max_4to1.ncd -o max_4to1.twr max_4to1.pcf 
