@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-10-06T20:22:14</DateModified>
+  <DateModified>2020-10-06T22:25:59</DateModified>
   <ModuleName>max_4to1</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/iseconfig/max_4to1.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff\</ImplementationReportsDirectory>
+  <SavedFilePath>E:/university/3991/fpga/homeworks/maltiplexer/mux_with_buff/iseconfig/max_4to1.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/university/3991/fpga/homeworks/maltiplexer/mux_with_buff\</ImplementationReportsDirectory>
   <DateInitialized>2020-10-06T20:18:06</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
