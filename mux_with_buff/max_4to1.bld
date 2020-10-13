@@ -6,8 +6,7 @@ Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
 max_4to1.ngd
 
 Reading NGO file
-"E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/max_4to1.ngc"
-...
+"E:/university/3991/fpga/homeworks/maltiplexer/mux_with_buff/max_4to1.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -28,7 +27,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 4405332 kilobytes
+Total memory usage is 4405336 kilobytes
 
 Writing NGD file "max_4to1.ngd" ...
 Total REAL time to NGDBUILD completion:  4 sec

@@ -5,10 +5,7 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="Xst" num="1989" delta="new" >Unit &lt;<arg fmt="%s" index="1">max_4to1</arg>&gt;: instances &lt;<arg fmt="%s" index="2">m1</arg>&gt;, &lt;<arg fmt="%s" index="3">m2</arg>&gt; of unit &lt;<arg fmt="%s" index="4">newnand</arg>&gt; are equivalent, second instance is removed
-</msg>
-
-<msg type="warning" file="Xst" num="2040" delta="new" >Unit <arg fmt="%s" index="1">max_4to1</arg>: <arg fmt="%d" index="2">11</arg> multi-source signals are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+<msg type="warning" file="Xst" num="2040" delta="old" >Unit <arg fmt="%s" index="1">max_4to1</arg>: <arg fmt="%d" index="2">3</arg> multi-source signals are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
 
 </messages>
 

@@ -4,9 +4,9 @@
 // Company: 
 // Engineer:
 //
-// Create Date:   19:47:12 10/06/2020
+// Create Date:   19:55:02 10/13/2020
 // Design Name:   max_4to1
-// Module Name:   E:/university/3991/fpga/homeworks/mux-with-buffer/mux_with_buff/test1.v
+// Module Name:   E:/university/3991/fpga/homeworks/maltiplexer/mux_with_buff/test1.v
 // Project Name:  mux_with_buff
 // Target Device:  
 // Tool versions:  
@@ -48,9 +48,53 @@ module test1;
 
 	initial begin
 		// Initialize Inputs
+		d1 = 0;
+		d2 = 1;
+		d3 = 0;
+		d4 = 1;
+		I0 = 0;
+		I1 = 0;
+
+		// Wait 100 ns for global reset to finish
+		#100;
+        
+		// Add stimulus here
+		d1 = 0;
+		d2 = 1;
+		d3 = 0;
+		d4 = 1;
+		I0 = 1;
+		I1 = 0;
+
+		// Wait 100 ns for global reset to finish
+		#100;
+        
+		// Add stimulus here
+		d1 = 0;
+		d2 = 1;
+		d3 = 0;
+		d4 = 1;
+		I0 = 0;
+		I1 = 1;
+
+		// Wait 100 ns for global reset to finish
+		#100;
+        
+		// Add stimulus here
+		d1 = 0;
+		d2 = 1;
+		d3 = 0;
+		d4 = 1;
+		I0 = 1;
+		I1 = 1;
+
+		// Wait 100 ns for global reset to finish
+		#100;
+        
+		// Add stimulus here
 		d1 = 1;
-		d2 = 0;
-		d3 = 1;
+		d2 = 1;
+		d3 = 0;
 		d4 = 0;
 		I0 = 0;
 		I1 = 0;
@@ -59,38 +103,6 @@ module test1;
 		#100;
         
 		// Add stimulus here
-		
-		d1 = 1;
-		d2 = 0;
-		d3 = 1;
-		d4 = 0;
-		I0 = 1;
-		I1 = 0;
-
-		// Wait 100 ns for global reset to finish
-		#100;
-		
-		d1 = 1;
-		d2 = 0;
-		d3 = 1;
-		d4 = 0;
-		I0 = 0;
-		I1 = 1;
-
-		// Wait 100 ns for global reset to finish
-		#100;
-		
-		d1 = 1;
-		d2 = 0;
-		d3 = 1;
-		d4 = 0;
-		I0 = 1;
-		I1 = 1;
-
-		// Wait 100 ns for global reset to finish
-		#100;
-		
-		
 
 	end
       

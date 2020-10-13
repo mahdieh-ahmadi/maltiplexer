@@ -10,7 +10,7 @@ Target Device  : xc6slx4
 Target Package : tqg144
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Tue Oct 06 20:02:32 2020
+Mapped Date    : Tue Oct 13 19:58:10 2020
 
 Design Summary
 --------------
@@ -43,7 +43,7 @@ Slice Logic Distribution:
   over-mapped for a non-slice resource or if Placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                         6 out of     102    5%
+  Number of bonded IOBs:                         7 out of     102    6%
 
 Specific Feature Utilization:
   Number of RAMB16BWERs:                         0 out of      12    0%
@@ -70,8 +70,8 @@ Specific Feature Utilization:
 Average Fanout of Non-Clock Nets:                1.00
 
 Peak Memory Usage:  4502 MB
-Total REAL time to MAP completion:  4 secs 
-Total CPU time to MAP completion:   4 secs 
+Total REAL time to MAP completion:  8 secs 
+Total CPU time to MAP completion:   5 secs 
 
 Table of Contents
 -----------------
@@ -97,7 +97,6 @@ Section 2 - Warnings
 
 Section 3 - Informational
 -------------------------
-INFO:LIT:243 - Logical network d3 has no load.
 INFO:MapLib:562 - No environment variables are currently set.
 INFO:LIT:244 - All of the single ended outputs in this design are using slew
    rate limited output drivers. The delay on speed critical single ended outputs
@@ -128,6 +127,7 @@ Section 6 - IOB Properties
 | Q                                  | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
 | d1                                 | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | d2                                 | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| d3                                 | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 | d4                                 | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
